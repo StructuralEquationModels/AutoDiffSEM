@@ -2,3 +2,12 @@ name = "AutoDiffSEM"
 uuid = "2ec8abfc-ef0a-45ab-b704-97144d00eb74"
 authors = ["Maximilian Ernst <ernst@mpib-berlin.mpg.de>"]
 version = "0.1.0"
+
+[deps]
+ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+StructuralEquationModels = "383ca8c5-e4ff-4104-b0a9-f7b279deed53"
+Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
+Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
