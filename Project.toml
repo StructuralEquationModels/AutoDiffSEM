@@ -1,0 +1,4 @@
+name = "AutoDiffSEM"
+uuid = "2ec8abfc-ef0a-45ab-b704-97144d00eb74"
+authors = ["Maximilian Ernst <ernst@mpib-berlin.mpg.de>"]
+version = "0.1.0"
