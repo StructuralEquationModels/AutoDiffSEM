@@ -10,7 +10,8 @@ module AutoDiffSEM
         SemImplySymbolic,
         set_field_type_kwargs!, get_fields!, get_SemLoss, set_RAMConstants!, fill_A_S_M,
         identifier,
-        n_par, update_observed, Σ, ∇Σ, μ, ∇μ, Σ_function, ∇Σ_function, has_meanstructure
+        n_par, update_observed, Σ, ∇Σ, μ, ∇μ, Σ_function, ∇Σ_function, has_meanstructure,
+        SemObserved, SemImply, SemLoss, SemOptimizer
     # import StructuralEquationModels: print_type_name, print_field_types, sem_fit, start_val
 
     include("types.jl")
