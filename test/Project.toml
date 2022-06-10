@@ -1,5 +1,6 @@
 [deps]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
 SafeTestsets = "1bc83da4-3b8d-516f-aca4-4fe02f6d838f"
 StenoGraphs = "78862bba-adae-4a83-bb4d-33c106177f81"
 StructuralEquationModels = "383ca8c5-e4ff-4104-b0a9-f7b279deed53"

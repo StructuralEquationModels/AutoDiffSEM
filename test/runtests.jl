@@ -1,3 +1,4 @@
 using Test, SafeTestsets
 
-@safetestset "Zygote" begin include("zygote.jl") end
+@safetestset "SemForwardDiff" begin include("SemForwardDiff/forwarddiff.jl") end 
+@safetestset "SemZygote" begin include("SemZygote/zygote.jl") end

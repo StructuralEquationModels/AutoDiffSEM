@@ -803,9 +803,9 @@ uuid = "78862bba-adae-4a83-bb4d-33c106177f81"
 version = "0.2.0"
 
 [[deps.StructuralEquationModels]]
-deps = ["ChainRules", "DataFrames", "DelimitedFiles", "Distributions", "FiniteDiff", "ForwardDiff", "LazyArtifacts", "LineSearches", "LinearAlgebra", "NLSolversBase", "NLopt", "Optim", "Pkg", "PrettyTables", "Random", "SparseArrays", "Statistics", "StatsBase", "StenoGraphs", "Symbolics", "Zygote"]
-git-tree-sha1 = "ff64b0a4db173aca3577d9faefbdeb1217b60a96"
-repo-rev = "devel"
+deps = ["ChainRules", "ChainRulesCore", "DataFrames", "DelimitedFiles", "Distributions", "FiniteDiff", "ForwardDiff", "LazyArtifacts", "LineSearches", "LinearAlgebra", "NLSolversBase", "NLopt", "Optim", "Pkg", "PrettyTables", "Random", "SparseArrays", "Statistics", "StatsBase", "StenoGraphs", "Symbolics", "Zygote"]
+git-tree-sha1 = "1a581e600f0e2a81a485bcbae1123dae030a95f2"
+repo-rev = "feature/zygote"
 repo-url = "https://github.com/StructuralEquationModels/StructuralEquationModels.jl"
 uuid = "383ca8c5-e4ff-4104-b0a9-f7b279deed53"
 version = "0.1.0"
