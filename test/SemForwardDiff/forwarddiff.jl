@@ -1,6 +1,6 @@
 using AutoDiffSEM, StructuralEquationModels, Test, FiniteDiff
 
-include("helper.jl")
+include("../helper.jl")
 
 spec = RAMMatrices(nothing, nothing, nothing, nothing, [:hi, :yo], nothing, nothing, nothing)
 
