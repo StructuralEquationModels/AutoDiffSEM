@@ -160,6 +160,8 @@ end
 
 has_meanstructure(imply::RAMSymbolicZygote) = imply.has_meanstructure
 
+ram_matrices(imply::RAMSymbolicZygote) = imply.ram_matrices
+
 ############################################################################################
 ### functions
 ############################################################################################

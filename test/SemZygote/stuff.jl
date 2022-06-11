@@ -59,7 +59,28 @@ gradient!(grad_an, model_an, sv)
 
 grad ≈ grad_an
 
-model_fit = sem_fit(model; start_val = sv)
+model_fit = sem_fit(model)
+
+maximum(abs.(solution(model_fit) - solution(model_fit_an))) < 1e-2
+
+### non-symbolic
+model = SemZygote(
+    specification = partable,
+    data = data,
+    imply = RAMZygote
+)
+
+objective!(model, sv) ≈ objective!(model_an, sv)
+
+grad = similar(sv)
+grad_an = similar(sv)
+
+gradient!(grad, model, sv)
+gradient!(grad_an, model_an, sv)
+
+grad ≈ grad_an
+
+model_fit = sem_fit(model)
 
 maximum(abs.(solution(model_fit) - solution(model_fit_an))) < 1e-2
 
